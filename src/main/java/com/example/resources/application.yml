@@ -1,0 +1,21 @@
+logging:
+  kafka:
+    topic: service_logs
+
+spring:
+  jpa:
+    hibernate:
+    show-sql: false
+
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/loggingdb
+#    username: postgres
+#    password: postgres
+#    driver-class-name: org.postgresql.Driver
+
+
+metric:
+  limit: 1000
+
+cache:
+  time: 60
